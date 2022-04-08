@@ -1,0 +1,16 @@
+{
+  "name": "test-uicshib",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "*",
+    "chalk": "*",
+    "cookie-parser": "*",
+    "express": "^4.17.3",
+    "express-session": "*",
+    "morgan": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "passport-uicshib": "*",
+    "pm2": "^5.2.0"
+  }
+}
