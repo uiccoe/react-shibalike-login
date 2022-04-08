@@ -25,7 +25,7 @@ const Login = () => {
         axios.post('/api/login', data)
         .then((response) => {
           console.log('Logged in')
-          window.location.href = '/'
+         
           console.log(JSON.stringify(response?.data));        
           setEmail('');
           setPwd('');
